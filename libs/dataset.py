@@ -45,7 +45,7 @@ def rotate_pointcloud(pointcloud):
 
 
 class Dataset(data.Dataset):
-    def __init__(self, root, dataset_name='modelnet40', class_choice=None,
+    def __init__(self, root, dataset_name='modelnet10', class_choice=None,
             num_points=2048, split='train', load_name=True, load_file=True,
             segmentation=False, random_rotate=False, random_jitter=False, 
             random_translate=False):
