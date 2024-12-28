@@ -1,1 +1,5 @@
-/data
+# data ignore
+/data/
+#/data/raw/*.hdf5
+#/data/datasets/
+#!/data/datasets/.gitignore
